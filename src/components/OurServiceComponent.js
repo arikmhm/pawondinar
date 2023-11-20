@@ -6,7 +6,7 @@ import CustomerService from '../assets/img/Icon/CustomerService.png'
 import Pembayaran from '../assets/img/Icon/Pembayaran.png'
 
 
-function AutoLayoutExample() {
+const OurServiceComponent=()=> {
   return (
     <Container>
       <Row className='text-center mt-5 mb-5 '>
@@ -39,4 +39,4 @@ function AutoLayoutExample() {
   );
 }
 
-export default AutoLayoutExample;
+export default OurServiceComponent;

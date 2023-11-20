@@ -5,6 +5,7 @@ import './style/style.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import FooterComponent from './components/FooterComponent';
 import OurServiceComponent from './components/OurServiceComponent'
+import Product from './components/Product';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
     </div>
     {/* End Landing Page */}
+    <Product/>
     <OurServiceComponent/>
     <FooterComponent/>
 </div>
