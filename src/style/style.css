@@ -1,0 +1,8 @@
+.Bg {
+    height: 100vh;
+    background: url("../assets/img/bg/BgLandingPage.png");
+    background-size: cover;
+}
+.tagline {
+    height: 100vh;
+}
