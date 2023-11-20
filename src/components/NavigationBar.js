@@ -1,5 +1,5 @@
 import { Navbar,Nav, NavbarBrand, NavLink, Container } from "react-bootstrap"
-
+import Pawonlogo from '../assets/img/Icon/logopawon.png' 
 
 
 const NavigationBar = ()=> {
@@ -7,10 +7,14 @@ const NavigationBar = ()=> {
         <div>
             <Navbar>
                     <Container>
-                        <NavbarBrand>Pawon Dinar</NavbarBrand>
-                        <Nav>
-                            <NavLink>Home</NavLink>
-                            <NavLink >Link</NavLink>
+                        <NavbarBrand>
+                            <img src={Pawonlogo} style={{width:'40%'}}></img>
+                        </NavbarBrand>
+                        <Nav >
+                            <NavLink style={{color:'white'}}>Home</NavLink>
+                            <NavLink style={{color:'white'}}>Product</NavLink>
+                            <NavLink style={{color:'white'}}>Review</NavLink>
+                            <NavLink style={{color:'white'}}>Contact</NavLink>
                         </Nav>
                     </Container>
             </Navbar>
