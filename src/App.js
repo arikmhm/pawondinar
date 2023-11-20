@@ -3,6 +3,7 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 import './style/style.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import FooterComponent from './components/FooterComponent';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
     </div>
     {/* End Landing Page */}
+    <FooterComponent/>
 </div>
   );
 }

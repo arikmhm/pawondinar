@@ -1,0 +1,35 @@
+footer {
+    background-color: #FF0000;
+    color: #fff;
+    text-align: center; /* Mengatur teks di dalam footer menjadi rata tengah */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .logo img {
+    width: 100px; /* Sesuaikan lebar logo sesuai kebutuhan */
+    height: auto;
+    margin-left: 4em;
+  }
+  
+  .social-media {
+    padding-right: 10em;
+    margin-top: 10px; /* Menambahkan margin atas agar tautan media sosial tidak terlalu dekat dengan logo */
+  }
+  
+  .social-media a p {
+    padding-bottom: 1em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block; /* Membuat tautan media sosial menjadi elemen blok */
+  }
+  
+  .social-media img {
+    width: 30px; /* Sesuaikan ukuran ikon media sosial sesuai kebutuhan */
+    height: auto;
+  }
